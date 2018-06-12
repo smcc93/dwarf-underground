@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header'
 import MainPage from './MainPage'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
       <Header />
-      <MainPage />
-    
-
-    <footer className="expanded row">
-      <h6>&copy; 2017 Erebor Industries</h6>
-      <h6 className="float-right">All rights reserved</h6>
-    </footer>
+      <MainPage />  
+      <Footer />
       </div>
+      
     );
   }
 }
